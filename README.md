@@ -4,3 +4,7 @@
 update-grub
 grub2-mkconfig -o /boot/grub2/grub.cfg
 grub2-mkconfig -o /etc/grub2-efi.cfg 
+
+
+
+mysql 5.7初始随机密码
