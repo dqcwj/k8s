@@ -1,41 +1,4 @@
-IT 行业相对于一般传统行业，发展更新速度更快，一旦停止了学习，很快就会被行业所淘汰，但是，我们要清楚：淘汰的永远只是那些初级水平的从业者，过硬技术的从业者永远都是稀缺的。因此对于学习，我们还是要踏踏实实的。
-
-
-自学 Python ，也是一样，不要一开始因为头脑发热就不停地收藏各种资料网站，购买各种书籍，下载了大量的教学视频，过了几天，学习的热情开始褪去，再过几个星期，终于完成了学习课程 —— 《从入门到放弃》。所以，学习 Python 需要一步一个脚印，踏踏实实地学。
-
-
-
-# FQ
-
-在讲 Python 如何入门之前，个人建议最好每个人都有自己的 FQ 工具，多使用 Google 搜索，多去看一下墙外的世界，多看 Github 上的开源项目。
-
-至于如何 FQ ，这里提供一下我用过的工具：[FQ工具集](/Res/FQ.md)
-
-
-
-# Python 学习资源集
-
-相信很多人学习某门编程语言的时候，都会找各种学习资料。说句实话，资料太多，反而没用，根据自己的学习习惯，个人能力选择一门资源坚持学就好了。
-
-因为每个人的需求不同，这里整理了一批 Python 比较好的学习资料：
-
-* [Python 博客网站资源](/Res/Python博客网站资源.md)
-
-还有一些有趣的网站：
-
-* [一个可以看执行过程的网站](http://www.pythontutor.com/visualize.html#mode=edit)
-
-
-
-# Python 入门
-
-对于入门，主要是掌握基本的语法和熟悉编程规范，因此大部分的教程基本一致的，所以还是建议选好适合自己的一个教程，坚持学下去。
-
-在 Python 入门中，本人编写了一系列的 《草根学 Python 》 文章， 是基于 Python 3.6 写的 Python 入门系列教程，为了更好的阅读，把它整理在 [GitBook](https://www.readwithu.com/) 上，希望对各位入门 Python 有所帮助。
-
->注：2018 年 02 月 27 日，基础知识入门部分已经完成了的。因近期读者反映有些图片没法打开了（之前图片放在七牛云，用的是临时链接，最近七牛云把这个给关闭了，导致图片没法打开），且自己对之前的内容有些不满意，决定在 2019 年 7 月 7 日开始进行了再次修改。但这里做个说明，因为之前写的时候用的是 windows 电脑，现在用 mac ，所以有些例子是 windows 的截图，有些是 mac 的截图，不要觉得奇怪。
-
-**主要目录如下：**
+# Summary
 
 * [为什么学Python?](/Article/PythonBasis/python0/WhyStudyPython.md)
 * [Python代码规范](/Article/codeSpecification/codeSpecification_Preface.md)
@@ -123,36 +86,11 @@ IT 行业相对于一般传统行业，发展更新速度更快，一旦停止�
     - [re.match 和 re.search](/Article/PythonBasis/python14/6.md)
 * [闭包](/Article/PythonBasis/python15/1.md)
 * [装饰器](/Article/PythonBasis/python16/1.md)
-
-
-
-
-# 知识点补漏
-* [Python 关键字 yield](/Article/supplement/Python关键字yield.md)
-
-
-
-# Python 进阶
-
+* [知识点补漏](README.md)
+    - [Python 关键字 yield](/Article/supplement/Python关键字yield.md)
+* [**Python 进阶部分**](/Article/advanced/advanced.md)
 * [使用Python虚拟环境](/Article/advanced/使用Python虚拟环境.md)
 * [Mac中使用virtualenv和virtualenvwrapper](/Article/advanced/Mac中使用virtualenv和virtualenvwrapper.md)
-
-
-# Django
-
-Python 下有许多款不同的 Web 框架。Django 是重量级选手中最有代表性的一位。许多成功的网站和 APP 都基于 Django。
-
-如果对自己的基础有点信息的童鞋，可以尝试通过国外的 [Django 博客从搭建到部署系列教程](https://simpleisbetterthancomplex.com/series/2017/09/04/a-complete-beginners-guide-to-django-part-1.html) 进行入门，这个教程讲的非常的详细，而且还有很多有趣的配图。不过可能因为墙的原因，很多人会访问不到，就算访问到了，也因为是英语的，不会进行耐心的阅读学习。因此我打算翻译这个教程。
-
-* [一个完整的初学者指南Django-part1](/Article/django/一个完整的初学者指南Django-part1.md)
-* [一个完整的初学者指南Django-part2](/Article/django/一个完整的初学者指南Django-part2.md)
-
-后面经一个朋友说，这个教程已经有人在翻译了，因此我也不翻译了，不过感觉我的翻译还是挺好的，因为不是直译的，是通过了解后，用自己的语言再次表达出来。
-
-这里有上面这个教程翻译计划的 [Github](https://github.com/wzhbingo/django-beginners-guide) 以及 [博客](https://www.cloudcrossing.xyz/post/20/)，觉得哪个看得舒服，就选哪个进行学习。
-
-
-
-持续更新....
+* [**Django**](/Article/django/Django.md)
 
 
